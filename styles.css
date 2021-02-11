@@ -1,0 +1,98 @@
+body {
+    background-image: url("https://fondosmil.com/fondo/27334.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.title img{
+    height: 150px;
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+
+.characters__container{
+    margin: auto;
+    display: block;
+    width: 80vw;
+    min-width: 310px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.characters__container h2{
+   margin-left: 50px; 
+   text-align: left;
+   font-size: 30px;
+   font-family: 'Fira Sans', sans-serif;
+   font-weight: lighter;
+   color: black ;
+}
+.character__items{
+    display: flex;
+    height: calc(100% - 44.55px);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+
+}
+
+.character__item{
+   width: 200px;
+   background-color: rgba(131, 124, 116, 0.564);
+   margin-bottom: 20px;
+   padding-top: 10px;
+   margin-left: 5px;
+}
+.character__img{
+  margin: auto;
+  width: 180px;
+ }
+
+.character__text{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px ;
+    color: black;
+}
+
+  
+ @media(max-width: 637px){
+    .characters__container{
+        background-color: rgba(10, 10, 10, 0);
+    }
+    .character__items{
+        display: block;
+    }
+    .character__item{
+        margin: auto;
+  margin-top: 30px;
+
+    }
+    body{
+        background-image: url("https://www.xtrafondos.com/wallpapers/vertical/rick-and-morty-en-nave-4518.jpg");
+    }
+    main{
+        width: 100vw;
+    
+    }
+    .characters__container h2{
+ text-align: center;
+ margin-left: 0;
+    }
+
+ }
+   
+ @media(max-width: 500px){
+.title{
+    height: 100px;width: auto;
+}
+header img{
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}   
+
+ }
